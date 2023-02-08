@@ -185,4 +185,44 @@ button{
 
 }
 */
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book{
+    width: 25%;
+    padding: 24px;
+}
+
+.book__img{
+    max-width: 380px;
+    transition: all 300ms ease;
+}
+
+.book__img--wrapper{
+    margin-bottom:8px;
+    border-radius: 4px;
+    overflow: hidden; 
+}
+
+.book:hover .book__img{
+    transform: scale(1.03);
+}
+.book__price--normal{
+    text-decoration: line-through;
+    padding: 8px;
+}
+
+.book__title{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.book__title:hover{
+    text-decoration: underline;
+    cursor: no-drop;
+}
  
+
